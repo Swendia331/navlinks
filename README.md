@@ -1,4 +1,8 @@
-# NavLink - 多应用集成平台
+# 2.0重大重构版本，暂未开源
+ ## github地址：https://github.com/txwebroot/Navlink-Releases
+ ## 项目网站：www.webxx.top
+
+# NavLink - 个人导航站（1.0现已开源）
 
 > 一个现代化、模块化的私有应用集成平台，提供导航站、订阅管理和Docker管理等多个实用应用。
 
