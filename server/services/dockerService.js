@@ -169,14 +169,26 @@ export class DockerService {
                 const agent = new http.Agent();
 
                 agent.createConnection = function (options, callback) {
-                    ssh.forwardOut(
-                        '127.0.0.1',
-                        0,
-                        '127.0.0.1',
-                        2375,
+                    // 优先尝试通过 Unix Socket 连接 (需要远程 OpenSSH 6.7+)
+                    ssh.openssh_directStreamLocal(
+                        '/var/run/docker.sock',
                         (err, stream) => {
                             if (err) {
-                                callback(err);
+                                logDebug(`[SSH] Unix Socket 连接失败，尝试降级到 TCP 2375: ${err.message}`);
+                                // 如果 Unix Socket 失败，降级到传统的 TCP 端口转发方式
+                                ssh.forwardOut(
+                                    '127.0.0.1',
+                                    0,
+                                    '127.0.0.1',
+                                    2375,
+                                    (tcpErr, tcpStream) => {
+                                        if (tcpErr) {
+                                            callback(tcpErr);
+                                        } else {
+                                            callback(null, tcpStream);
+                                        }
+                                    }
+                                );
                             } else {
                                 callback(null, stream);
                             }
